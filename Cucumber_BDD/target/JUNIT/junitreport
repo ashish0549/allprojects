@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="141.443" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-08-21T11:02:08.505166Z">
+<testcase classname="eBay Login" name="User logs in with valid credentials" time="17.061">
+<system-out><![CDATA[
+Given the user navigates to the eBay login page.............................passed
+When the user enters their email and password...............................passed
+Then the user should be signed in successfully..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Multiple item search on eBay" name="User searches for multiple items one by one" time="13.708">
+<system-out><![CDATA[
+Given the user is on the eBay homepage......................................passed
+When the user searches for "Watch","Phone","Shoes"..........................passed
+Then the search results should be displayed for each item...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add item to cart and then remove it" name="User adds an item to cart and deletes it" time="22.892">
+<system-out><![CDATA[
+Given the user is on the eBay homepage to add and remove item...............passed
+When the user adds and removes an item from the cart........................passed
+Then the cart should not contain the item...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Update address and name in eBay profile" name="User updates profile address and middle name" time="45.397">
+<system-out><![CDATA[
+Given the user is logged in to update address...............................passed
+When the user updates address and name in account settings..................passed
+Then the updated profile information should be saved........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hover over and explore top categories" name="User explores different categories" time="16.12">
+<system-out><![CDATA[
+Given the user is on the eBay homepage to explore categories................passed
+When the user hovers over different categories..............................passed
+Then the subcategories should be displayed..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search using all categories option" name="User selects &quot;All Categories&quot; and searches" time="10.832">
+<system-out><![CDATA[
+Given the user is on eBay homepage to shop by all categories................passed
+When the user selects all categories and performs search....................passed
+Then search results from all categories should appear.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Change language or country on eBay" name="User changes the country to Italy" time="14.941">
+<system-out><![CDATA[
+Given the user is on the eBay homepage to change language...................passed
+When the user scrolls down and changes country to Italy.....................passed
+Then the site should switch to Italian version..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

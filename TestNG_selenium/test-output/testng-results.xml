@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-19T11:58:36 IST" name="Default suite" finished-at="2025-08-19T12:00:22 IST" duration-ms="106041">
+    <groups>
+    </groups>
+    <test started-at="2025-08-19T11:58:36 IST" name="Default test" finished-at="2025-08-19T12:00:22 IST" duration-ms="106041">
+      <class name="Testng_package.Ebay_miniproject">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Testng_package.Ebay_miniproject@2f4948e4]" started-at="2025-08-19T11:58:36 IST" name="beforeTest" finished-at="2025-08-19T11:58:44 IST" duration-ms="7702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testemail(java.lang.String)[pri:0, instance:Testng_package.Ebay_miniproject@2f4948e4]" started-at="2025-08-19T11:58:47 IST" name="testemail" data-provider="EbayExcelData" finished-at="2025-08-19T11:58:47 IST" duration-ms="38" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testemail -->
+        <test-method signature="testemail(java.lang.String)[pri:0, instance:Testng_package.Ebay_miniproject@2f4948e4]" started-at="2025-08-19T11:58:47 IST" name="testemail" data-provider="EbayExcelData" finished-at="2025-08-19T11:58:49 IST" duration-ms="2201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testemail -->
+        <test-method signature="testemail(java.lang.String)[pri:0, instance:Testng_package.Ebay_miniproject@2f4948e4]" started-at="2025-08-19T11:58:49 IST" name="testemail" data-provider="EbayExcelData" finished-at="2025-08-19T11:58:52 IST" duration-ms="2179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nas ir  hussain@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testemail -->
+        <test-method signature="testemail(java.lang.String)[pri:0, instance:Testng_package.Ebay_miniproject@2f4948e4]" started-at="2025-08-19T11:58:52 IST" name="testemail" data-provider="EbayExcelData" finished-at="2025-08-19T11:58:54 IST" duration-ms="2238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nasirhussainraghav@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testemail -->
+        <test-method signature="testpassword(java.lang.String)[pri:0, instance:Testng_package.Ebay_miniproject@2f4948e4]" started-at="2025-08-19T11:58:54 IST" name="testpassword" data-provider="EbayExcelData1" finished-at="2025-08-19T11:58:54 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpassword -->
+        <test-method signature="testpassword(java.lang.String)[pri:0, instance:Testng_package.Ebay_miniproject@2f4948e4]" started-at="2025-08-19T11:58:54 IST" name="testpassword" data-provider="EbayExcelData1" finished-at="2025-08-19T11:58:58 IST" duration-ms="3502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.2345678E7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpassword -->
+        <test-method signature="testpassword(java.lang.String)[pri:0, instance:Testng_package.Ebay_miniproject@2f4948e4]" started-at="2025-08-19T11:58:58 IST" name="testpassword" data-provider="EbayExcelData1" finished-at="2025-08-19T11:59:01 IST" duration-ms="3846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^*&]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpassword -->
+        <test-method signature="testpassword(java.lang.String)[pri:0, instance:Testng_package.Ebay_miniproject@2f4948e4]" started-at="2025-08-19T11:59:01 IST" name="testpassword" data-provider="EbayExcelData1" finished-at="2025-08-19T11:59:05 IST" duration-ms="3637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpassword -->
+        <test-method signature="testpassword(java.lang.String)[pri:0, instance:Testng_package.Ebay_miniproject@2f4948e4]" started-at="2025-08-19T11:59:05 IST" name="testpassword" data-provider="EbayExcelData1" finished-at="2025-08-19T11:59:10 IST" duration-ms="4977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SaiRaghav@1903]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpassword -->
+        <test-method signature="ms()[pri:2, instance:Testng_package.Ebay_miniproject@2f4948e4]" started-at="2025-08-19T11:59:10 IST" name="ms" finished-at="2025-08-19T11:59:17 IST" duration-ms="6762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ms -->
+        <test-method signature="addingtoCartandDelete()[pri:3, instance:Testng_package.Ebay_miniproject@2f4948e4]" started-at="2025-08-19T11:59:17 IST" name="addingtoCartandDelete" finished-at="2025-08-19T11:59:33 IST" duration-ms="15927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingtoCartandDelete -->
+        <test-method signature="changeAandN()[pri:4, instance:Testng_package.Ebay_miniproject@2f4948e4]" started-at="2025-08-19T11:59:33 IST" name="changeAandN" finished-at="2025-08-19T11:59:57 IST" duration-ms="24175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeAandN -->
+        <test-method signature="shoppingByCatTest()[pri:5, instance:Testng_package.Ebay_miniproject@2f4948e4]" started-at="2025-08-19T11:59:57 IST" name="shoppingByCatTest" finished-at="2025-08-19T12:00:07 IST" duration-ms="9885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingByCatTest -->
+        <test-method signature="shoppingByallCatTest()[pri:6, instance:Testng_package.Ebay_miniproject@2f4948e4]" started-at="2025-08-19T12:00:07 IST" name="shoppingByallCatTest" finished-at="2025-08-19T12:00:12 IST" duration-ms="5538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingByallCatTest -->
+        <test-method signature="languageChange()[pri:7, instance:Testng_package.Ebay_miniproject@2f4948e4]" started-at="2025-08-19T12:00:12 IST" name="languageChange" finished-at="2025-08-19T12:00:22 IST" duration-ms="9197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageChange -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Testng_package.Ebay_miniproject@2f4948e4]" started-at="2025-08-19T12:00:22 IST" name="afterTest" finished-at="2025-08-19T12:00:22 IST" duration-ms="885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Testng_package.Ebay_miniproject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
